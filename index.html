@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');</style> 
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        
+        
+        <title>Where to eat?</title>
+           
+    </head>
+
+    <body>
+            <div class="wrapper clearfix">
+                
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Chris</div>
+                <div class="player-score" id="score-0"></div>
+                <div class="player-current-box">
+                    <div class="player-current-label"></div>
+                    <div class="player-current-score" id="current-0"></div>
+                 
+                </div>
+            </div> 
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Denise</div>
+                <div class="player-score" id="score-1"></div>
+                <div class="player-current-box">
+                    <div class="player-current-label"></div>
+                    <div class="player-current-score" id="current-1"></div>
+                </div>
+            </div>
+                <div>
+        <div><img src="wte.png" alt="Game Logo" class="center" width="280" height="180"></div> 
+        </div>
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-choose"><i class="ion-ios-loop"></i>Choose Restaurant</button>
+            <button class="btn-change"><i class="ion-ios-download-outline"></i>Choose Player</button>
+            
+            <img src="dice-5.png" alt="Dice" class="dice">
+            
+            <!-- HOW TO PLAY -->
+        
+        <!-- Trigger/Open The Modal -->
+        <button class="myBtnHTP" id="myBtn"><i class="iconify" data-icon="ei:question" data-inline="false"></i> HOW TO PLAY! </button>
+
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+        <h2>How to play Pig - Dice Game</h2>
+        </div>
+        <div class="modal-body">
+        <p>GAME RULES:</p> <br>
+        <p>- The game has 2 players, playing in rounds</p><br>
+        <p>- In each turn, a player rolls a both dice as many times as they wish. Each result gets added to their ROUND score</p><br>
+        <p>- BUT, if one of the die rolls a 1, all their ROUND score gets lost. After that, it's the next player's turn</p><br>
+        <p>- The player can choose to 'Hold', which means that their ROUND score gets added to their GLOBAL score. After that, it's the next player's turn</p><br>
+        <p>- Players can choose to set a high score they wish to play to, if the box is empty the game will finish at a score of 100</p><br>
+        <p>GOOD LUCK!</p>
+        </div>
+        </div>
+        </div>
+
+        </div>
+        
+        <!--<script src="app.js"></script> -->
+        
+        
+        <script src="app.js"></script> 
+        
+        
+    </body>
+</html>
